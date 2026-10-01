@@ -1,0 +1,6 @@
+me/z3hm/crates/commands/CratesCommand.class
+me/z3hm/crates/classes/Crates.class
+me/z3hm/crates/classes/Crate.class
+me/z3hm/crates/CratesPlugin.class
+me/z3hm/crates/listeners/InventoryClickListener.class
+me/z3hm/crates/listeners/PlayerInteractListener.class

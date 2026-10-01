@@ -1,0 +1,27 @@
+name: Crates
+version: '${project.version}'
+main: me.z3hm.crates.CratesPlugin
+api-version: '26.1'
+load: STARTUP
+softdepend:
+  - ProtocolLib
+commands:
+  crates:
+    usage: /<command>
+    description: Main plugin command
+
+permissions:
+  crates.reload:
+    default: false
+  crates.create:
+    default: false
+  crates.set:
+    default: false
+  crates.unset:
+    default: false
+  crates.instance:
+    default: false
+  crates.delinstance:
+    default: false
+  crates.give:
+    default: false

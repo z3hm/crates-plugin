@@ -1,0 +1,8 @@
+sound:
+  loopTimes: 5
+  interval: 3
+  volume: 25
+  sound: minecraft:block.note_block.bell
+
+mechanics:
+  waitForCrateToOpen: true
